@@ -8,6 +8,8 @@ A comprehensive memory extraction and query system that analyzes chat conversati
 - **Frontend**: https://memory-frontend-faff.vercel.app
 - **Backend Repository**: https://github.com/LogicalGuy77/memory-api-faff
 
+![IMG-20250602-WA0002.jpg](https://github.com/user-attachments/assets/8cc1a5c8-6287-41e5-a7a8-952912907da6)
+
 ## 🎯 Overview
 
 The Memory Extraction System is designed to solve the problem of automatically capturing and organizing meaningful information from chat conversations. Instead of manually tracking user preferences, personal information, and important details scattered across multiple conversations, this system uses AI to intelligently extract, categorize, and store memories that can be easily searched and retrieved.
