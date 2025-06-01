@@ -6,20 +6,7 @@ A comprehensive memory extraction and query system that analyzes chat conversati
 
 - **API**: https://memory-api-faff.onrender.com
 - **Frontend**: https://memory-frontend-faff.vercel.app
-
-## 📋 Table of Contents
-
-- [Overview](#overview)
-- [Architecture](#architecture)
-- [Features](#features)
-- [Technology Stack](#technology-stack)
-- [Project Structure](#project-structure)
-- [Setup & Installation](#setup--installation)
-- [API Documentation](#api-documentation)
-- [Memory Types](#memory-types)
-- [Design Decisions & Trade-offs](#design-decisions--trade-offs)
-- [Deployment](#deployment)
-- [Contributing](#contributing)
+- **Backend Repository**: https://github.com/LogicalGuy77/memory-api-faff
 
 ## 🎯 Overview
 
