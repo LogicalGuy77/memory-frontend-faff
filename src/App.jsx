@@ -4,6 +4,7 @@ import Dashboard from "./components/Dashboard";
 import ChatView from "./components/ChatView";
 import MemoryView from "./components/MemoryView";
 import ChatUpload from "./components/ChatUpload";
+import MemoryQuery from "./components/MemoryQuery";
 import ApiStatus from "./components/ApiStatus";
 import ApiService from "./services/ApiService";
 
@@ -119,6 +120,16 @@ function App() {
               >
                 Upload Chat
               </button>
+              <button
+                onClick={() => setActiveView("query")}
+                className={`px-4 py-2 rounded-lg text-sm font-medium transition-all ${
+                  activeView === "query"
+                    ? "bg-blue-600 text-white"
+                    : "text-gray-400 hover:text-white hover:bg-gray-800"
+                }`}
+              >
+                Search Memories
+              </button>
               {selectedChatId && (
                 <>
                   <button
@@ -168,6 +179,8 @@ function App() {
         {activeView === "upload" && (
           <ChatUpload onUploadSuccess={handleUploadSuccess} />
         )}
+
+        {activeView === "query" && <MemoryQuery />}
 
         {activeView === "chat" && selectedChatId && (
           <ChatView
